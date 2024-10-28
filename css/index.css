@@ -400,7 +400,7 @@ nav a {
 }
 .container-contact {
   background-color: #151925;
-  height: 47vw;
+  height: 52vw;
   width: 100%;
 }
 .contact-head {
@@ -675,6 +675,7 @@ textarea[id="message"] {
   .contact-head{
     h1 {
       font-size: 3.2vw;
+      margin-top: 50px;
     }
   }
   .table {
