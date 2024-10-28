@@ -76,7 +76,6 @@ header nav a:hover {
   }
 }
 .home-img {
-
   img {
     width: 330px;
     height: 330px;
@@ -546,19 +545,19 @@ textarea[id="message"] {
 @media screen and (max-width: 1440px) {
   header {
     height: 4vw;
-    i{
+    i {
       opacity: 0;
     }
   }
 }
 
 @media screen and (max-width: 1024px) {
-  header{
+  header {
     height: 5.5vw;
   }
   .container-home {
     height: 54.5vw;
-    i{
+    i {
       opacity: 0;
     }
   }
@@ -672,7 +671,7 @@ textarea[id="message"] {
   .container-contact {
     height: 54.5vw;
   }
-  .contact-head{
+  .contact-head {
     h1 {
       font-size: 3.2vw;
       margin-top: 50px;
@@ -693,7 +692,7 @@ textarea[id="message"] {
 @media screen and (max-width: 768px) {
   header {
     height: 6.5vw;
-    i{
+    i {
       opacity: 0;
     }
   }
@@ -921,9 +920,8 @@ textarea[id="message"] {
   header {
     height: 12vw;
     padding: 5px;
-    i{
+    i {
       margin: 10px;
-      
     }
   }
   nav a {
@@ -1182,7 +1180,7 @@ textarea[id="message"] {
       margin-top: 40px;
     }
   }
- 
+
   .table {
     width: 200px;
     margin-left: 21%;
@@ -1540,9 +1538,9 @@ textarea[id="message"] {
   }
 }
 
-@media screen  and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   header {
-    height:15vw;
+    height: 15vw;
     padding: 3px;
   }
   nav a {

@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Recipes</title>
-    <link
-      rel="stylesheet"
-      href="\portfolio_kavindu-with_css\css\index.css"
-    />
+    <link rel="stylesheet" href="\portfolio_kavindu-with_css\css\index.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -16,7 +13,6 @@
       referrerpolicy="no-referrer"
     />
     <style>
-
       .burger {
         /* display: none; */
         color: white;
@@ -24,23 +20,22 @@
         cursor: pointer;
       }
       @media screen and (max-width: 590px) {
-    
-    .navbar ul{
-        display: none;
+        .navbar ul {
+          display: none;
+        }
+        .search-logo {
+          display: none;
+        }
+
+        .burger {
+          display: block;
+          opacity: 1;
+        }
+
+        .menu-panel.active {
+          right: 0;
+        }
       }
-      .search-logo{
-        display: none;
-      }
-  
-      .burger {
-        display: block;
-        opacity: 1;
-      }
-  
-      .menu-panel.active {
-        right: 0;
-      }
-    }
       .menu-panel {
         background-color: #1e2436;
         color: aqua;
@@ -74,7 +69,6 @@
         top: 10px;
         right: 20px;
       }
-    
     </style>
   </head>
   <body>
@@ -85,20 +79,18 @@
         <a href="#services">Services</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
-        
       </nav>
-      <i class="fa fa-bars burger" id="burger" aria-hidden="true">
-      </i>
+      <i class="fa fa-bars burger" id="burger" aria-hidden="true"> </i>
     </header>
 
     <div class="menu-panel" id="menu-panel-id">
       <ul>
-        <li><a href="#home">Home</a></li>    
+        <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#services">Services</a></li>
-        <li><a href="#projects">Projects</a></li>  
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
-    </ul>
+      </ul>
     </div>
 
     <br />
@@ -143,8 +135,8 @@
         </div>
         <div class="box box2">
           <div class="home-img" id="home-img">
-            <img 
-              src="\portfolio_kavindu-with_css\images\Screenshot 2024-10-14 133541.png"           
+            <img
+              src="\portfolio_kavindu-with_css\images\Screenshot 2024-10-14 133541.png"
               alt="Profile Picture"
             />
           </div>
@@ -385,11 +377,11 @@
       const burger = document.getElementById("burger");
       const menuPanel = document.getElementById("menu-panel-id");
       const closeBtn = document.getElementById("btn-close");
-  
+
       burger.addEventListener("click", () => {
         menuPanel.classList.toggle("active");
       });
-  
+
       closeBtn.addEventListener("click", () => {
         menuPanel.classList.remove("active");
       });
