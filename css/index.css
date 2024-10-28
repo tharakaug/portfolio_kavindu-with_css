@@ -25,6 +25,14 @@ header {
     margin-right: 20px;
   }
 }
+i {
+  color: white;
+  font-size: 20px;
+  margin-top: 11px;
+}
+i:hover {
+  color: aqua;
+}
 
 header nav a:hover {
   color: aqua;
@@ -68,9 +76,10 @@ header nav a:hover {
   }
 }
 .home-img {
+
   img {
-    width: 320px;
-    height: 320px;
+    width: 330px;
+    height: 330px;
     border-radius: 50%;
   }
 }
@@ -114,7 +123,7 @@ div .social-icons {
 
 .home-img {
   border-radius: 50%;
-  margin-top: 130px;
+  margin-top: 140px;
   margin-left: 160px;
   transition: 0.5s ease-out;
 }
@@ -139,14 +148,14 @@ nav a {
 }
 .about-img {
   border-radius: 50%;
-  margin-top: 130px;
+  margin-top: 150px;
   margin-left: 150px;
   transition: 0.5s ease-out;
 }
 .about-img {
   img {
-    width: 320px;
-    height: 320px;
+    width: 330px;
+    height: 330px;
     border-radius: 50%;
   }
 }
@@ -401,6 +410,14 @@ nav a {
   margin-top: 70px;
   background-color: #151925;
 }
+.contact-head {
+  margin-top: 0;
+  height: 10vw;
+  h1 {
+    font-size: 3vw;
+    margin-top: 50px;
+  }
+}
 input {
   margin: 7.2px;
   border: 0px;
@@ -527,11 +544,22 @@ textarea[id="message"] {
 }
 
 @media screen and (max-width: 1440px) {
+  header {
+    i{
+      opacity: 0;
+    }
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .container-home {
     height: 54.5vw;
+    i{
+      opacity: 0;
+    }
+  }
+  nav a {
+    font-size: 2vw;
   }
   .home {
     margin-top: 125px;
@@ -563,16 +591,79 @@ textarea[id="message"] {
     margin-top: 42px;
     margin-left: 90px;
   }
+  .projects-head {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: #323648;
+    h1 {
+      font-size: 3.2vw;
+      margin-top: 50px;
+    }
+  }
   .project-card {
+    display: grid;
+    background-color: #323648;
+    grid-template-columns: repeat(3, 1fr);
+    height: 54.5vw;
+    width: 100%;
     img {
+      border-radius: 15%;
+      transition: 0.5s ease-out;
       margin-top: 20px;
-      margin-bottom: 10px;
-      margin-left: 19px;
+      margin-bottom: 0px;
+      width: 20vw;
+      height: 16vw;
+      margin-left: 20px;
+    }
+    p {
+      color: white;
+      margin-left: 35px;
+      margin-right: 35px;
+      margin-top: 10px;
+      text-align: justify;
+      font-weight: 100;
+      font-size: 1.5vw;
+      text-align: center;
     }
     button {
-      margin-left: 83px;
-      margin-top: 15px;
+      width: 9vw;
+      height: 3vw;
+      border: 0px;
+      border-radius: 15px;
+      background-color: aqua;
+      margin-left: 75px;
+      box-shadow: 2px 0px 3px 5px aqua;
+      font-size: 1.4vw;
+      font-weight: bolder;
+      margin-top: 30px;
+      transition: 0.4s ease-out;
     }
+    button:hover {
+      transform: scale(0.9);
+      transition: 0.5s;
+      box-shadow: 3px 0px 3px 3px aqua;
+      cursor: pointer;
+      font-weight: bolder;
+    }
+    h3 {
+      color: white;
+      text-align: center;
+      font-weight: bold;
+      font-size: 2.6vw;
+    }
+  }
+  .pro1,
+  .pro2,
+  .pro3 {
+    height: 48vw;
+  }
+  .box8,
+  .box9,
+  .box10 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
   }
   .container-contact {
     height: 54.5vw;
@@ -592,6 +683,9 @@ textarea[id="message"] {
 @media screen and (max-width: 768px) {
   header {
     height: 7vw;
+    i{
+      opacity: 0;
+    }
   }
   nav a {
     font-size: 2vw;
@@ -814,9 +908,10 @@ textarea[id="message"] {
 
 @media screen and (max-width: 425px) {
   header {
-    height: 7vw;
+    height: 15vw;
   }
   nav a {
+    display: none;
     font-size: 2.5vw;
     padding: 10px;
   }
@@ -1056,7 +1151,7 @@ textarea[id="message"] {
     padding: 10px;
     background-color: #323648;
     h1 {
-      font-size: 8vw;
+      font-size: 7vw;
       margin-top: 50px;
     }
   }
@@ -1067,9 +1162,11 @@ textarea[id="message"] {
     margin-top: 0;
     height: 22vw;
     h1 {
+      font-size: 7vw;
       margin-top: 40px;
     }
   }
+ 
   .table {
     width: 200px;
     margin-left: 21%;
@@ -1120,9 +1217,10 @@ textarea[id="message"] {
 
 @media screen and (max-width: 375px) {
   header {
-    height: 12vw;
+    height: 16vw;
   }
   nav a {
+    display: none;
     font-size: 2.5vw;
     padding: 10px;
   }
@@ -1250,7 +1348,7 @@ textarea[id="message"] {
     color: white;
     background-color: #323648;
     width: 100%;
-    height: 47vw;
+    height: 50vw;
     border-radius: 50px;
     transition: 0.5s ease-in;
 
@@ -1346,7 +1444,7 @@ textarea[id="message"] {
   .pro1,
   .pro2,
   .pro3 {
-    height: 72vw;
+    height: 75vw;
   }
   .box8,
   .box9,
@@ -1403,7 +1501,7 @@ textarea[id="message"] {
     margin-top: 20px;
   }
   .footer {
-    height: 25vw;
+    height: 28vw;
   }
   .footer p {
     font-size: 2.3vw;
@@ -1427,9 +1525,10 @@ textarea[id="message"] {
 
 @media screen and (max-width: 320px) {
   header {
-    height: 12vw;
+    height:15vw;
   }
   nav a {
+    display: none;
     font-size: 2.5vw;
     padding: 10px;
   }
@@ -1587,7 +1686,7 @@ textarea[id="message"] {
       border: 0px;
       border-radius: 15px;
       background-color: aqua;
-      margin-left: 75px;
+      margin-left: 70px;
       box-shadow: 2px 0px 3px 5px aqua;
       font-size: 2.4vw;
       font-weight: bolder;
@@ -1597,13 +1696,13 @@ textarea[id="message"] {
   }
   .box5 .ui button {
     margin-top: 10px;
-    margin-left: 75px;
+    margin-left: 70px;
   }
   .project-card {
     display: grid;
     background-color: #323648;
     grid-template-columns: repeat(1, 3fr);
-    height: 270vw;
+    height: 285vw;
     width: 100%;
     img {
       border-radius: 15%;
@@ -1629,7 +1728,7 @@ textarea[id="message"] {
       border: 0px;
       border-radius: 15px;
       background-color: aqua;
-      margin-left: 85px;
+      margin-left: 82px;
       box-shadow: 2px 0px 3px 5px aqua;
       font-size: 2.4vw;
       font-weight: bolder;
@@ -1674,7 +1773,7 @@ textarea[id="message"] {
     }
   }
   .container-contact {
-    height: 120vw;
+    height: 135vw;
   }
   .contact-head {
     margin-top: 0;
