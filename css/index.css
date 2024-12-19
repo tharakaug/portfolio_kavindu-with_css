@@ -69,16 +69,16 @@ header nav a:hover {
   font-weight: bolder;
 }
 .home {
-  margin-top: 140px;
-  margin-left: 120px;
+  margin-top: 180px;
+  margin-left: 180px;
   h3 {
     font-size: 1.9vw;
   }
 }
 .home-img {
   img {
-    width: 330px;
-    height: 330px;
+    width: 430px;
+    height: 430px;
     border-radius: 50%;
   }
 }
@@ -122,12 +122,12 @@ div .social-icons {
 
 .home-img {
   border-radius: 50%;
-  margin-top: 140px;
-  margin-left: 160px;
+  margin-top: 180px;
+  margin-left: 250px;
   transition: 0.5s ease-out;
 }
 .home-img:hover {
-  transform: scale(1.03);
+  transform: scale(1.02);
   transition: 0.5s ease-in;
 }
 
@@ -147,14 +147,14 @@ nav a {
 }
 .about-img {
   border-radius: 50%;
-  margin-top: 150px;
-  margin-left: 150px;
+  margin-top: 210px;
+  margin-left: 250px;
   transition: 0.5s ease-out;
 }
 .about-img {
   img {
-    width: 330px;
-    height: 330px;
+    width: 430px;
+    height: 430px;
     border-radius: 50%;
   }
 }
@@ -186,8 +186,8 @@ nav a {
 }
 .about-text {
   color: white;
-  margin-top: 180px;
-  margin-left: 60px;
+  margin-top: 230px;
+  margin-left: 80px;
   margin-right: 40px;
   h1 {
     margin-top: 10px;
@@ -216,10 +216,11 @@ nav a {
   color: white;
   text-align: center;
   padding: 10px;
-  margin-top: 15px;
+  margin-top: 0px;
   background-color: #151925;
   h1 {
-    margin-top: 40px;
+    margin-top: 60px;
+    font-size: 3.5vw;
   }
 }
 .box5,
@@ -235,7 +236,7 @@ nav a {
   box-shadow: 0px 2px 2px 4px aqua;
 }
 .box5 .ui button {
-  margin-top: 60px;
+  margin-top: 14vh;
 }
 .ui {
   color: white;
@@ -271,11 +272,11 @@ nav a {
     border: 0px;
     border-radius: 15px;
     background-color: aqua;
-    margin-left: 130px;
+    margin-left: 10vw;
     box-shadow: 2px 0px 3px 5px aqua;
     font-size: 1vw;
     font-weight: bolder;
-    margin-top: 40px;
+    margin-top: 10vh;
     transition: 0.4s ease-out;
   }
 }
@@ -303,7 +304,7 @@ nav a {
     margin-bottom: 10px;
     width: 20vw;
     height: 14vw;
-    margin-left: 40px;
+    margin-left: 3.5vw;
   }
   p {
     color: white;
@@ -320,11 +321,11 @@ nav a {
     border: 0px;
     border-radius: 15px;
     background-color: aqua;
-    margin-left: 120px;
+    margin-left: 10vw;
     box-shadow: 2px 0px 3px 5px aqua;
     font-size: 1vw;
     font-weight: bolder;
-    margin-top: 20px;
+    margin-top: 8vh;
     transition: 0.4s ease-out;
   }
   button:hover {
@@ -348,8 +349,8 @@ nav a {
   padding: 10px;
   background-color: #323648;
   h1 {
-    font-size: 2.5vw;
-    margin-top: 50px;
+    font-size: 3.5vw;
+    margin-top: 60px;
   }
 }
 
@@ -411,9 +412,9 @@ nav a {
 }
 .contact-head {
   margin-top: 0;
-  height: 10vw;
+  height: 8vw;
   h1 {
-    font-size: 3vw;
+    font-size: 3.5vw;
     margin-top: 50px;
   }
 }
@@ -453,8 +454,8 @@ textarea[id="message"] {
   padding: 10px;
 }
 .table {
-  width: 800px;
-  margin-left: 21%;
+  width: 1000px;
+  margin-left: 25vw;
   margin-top: 20px;
 }
 .btncontact {
@@ -485,7 +486,7 @@ textarea[id="message"] {
   align-items: center;
   width: 100%;
   background: #323648;
-  height: 15vw;
+  height: 14vw;
   padding: 20px 50px;
   flex-direction: column;
 }
@@ -548,6 +549,39 @@ textarea[id="message"] {
     i {
       opacity: 0;
     }
+    
+  }
+  .home {
+    margin-top: 120px;
+    margin-left: 120px;
+    h3 {
+      font-size: 1.9vw;
+    }
+  }
+  .home-img {
+    margin-top: 90px;
+    margin-left: 150px;
+    img {
+      width: 380px;
+      height: 380px;
+    }
+  }
+  .about-img {
+    margin-top: 110px;
+    margin-left: 150px;
+    img {
+      width: 380px;
+      height: 380px;
+    }
+  }
+  .about-text {
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+  .table {
+    width: 1000px;
+    margin-left: 16%;
+    margin-top: 25px;
   }
 }
 
@@ -565,23 +599,33 @@ textarea[id="message"] {
     font-size: 2vw;
   }
   .home {
-    margin-top: 125px;
+    margin-top: 100px;
     margin-left: 90px;
     h3 {
       font-size: 1.9vw;
     }
   }
   .home-img {
-    margin-top: 105px;
+    margin-top: 90px;
     margin-left: 94px;
+    img {
+      width: 280px;
+      height: 280px;
+    }
   }
   .container-about {
     height: 54.5vw;
   }
   .about-img {
-    margin-left: 60px;
+    margin-top: 120px;
+    margin-left: 90px;
+    img {
+      width: 280px;
+      height: 280px;
+    }
   }
   .about-text {
+    margin-top: 130px;
     margin-left: 50px;
   }
   .ui {
@@ -1036,6 +1080,7 @@ textarea[id="message"] {
   .services-head {
     margin-top: 5px;
     h1 {
+      font-size: 7vw;
       margin-top: 40px;
     }
   }
