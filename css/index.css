@@ -211,6 +211,8 @@ nav a {
   grid-template-columns: repeat(3, 1fr);
   height: 47vw;
   width: 100%;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 .services-head {
   color: white;
@@ -272,12 +274,13 @@ nav a {
     border: 0px;
     border-radius: 15px;
     background-color: aqua;
-    margin-left: 10vw;
+    margin-left: 8.5vw;
     box-shadow: 2px 0px 3px 5px aqua;
     font-size: 1vw;
     font-weight: bolder;
-    margin-top: 10vh;
+    margin-top: 7vh;
     transition: 0.4s ease-out;
+    
   }
 }
 
@@ -327,6 +330,9 @@ nav a {
     font-weight: bolder;
     margin-top: 8vh;
     transition: 0.4s ease-out;
+    a{
+      text-decoration: none;
+    }
   }
   button:hover {
     transform: scale(0.9);
@@ -847,7 +853,7 @@ textarea[id="message"] {
       width: 8vw;
       height: 2.5vw;
       border: 0px;
-      margin-left: 75px;
+      margin-left: 65px;
       font-size: 1.3vw;
       margin-top: 30px;
     }
@@ -859,7 +865,7 @@ textarea[id="message"] {
   }
   .box5 .ui button {
     margin-top: 46px;
-    margin-left: 75px;
+    margin-left: 5px;
   }
   .projects-head {
     color: white;
@@ -1127,7 +1133,7 @@ textarea[id="message"] {
       border: 0px;
       border-radius: 15px;
       background-color: aqua;
-      margin-left: 113px;
+      margin-left: 90px;
       box-shadow: 2px 0px 3px 5px aqua;
       font-size: 2.5vw;
       font-weight: bolder;
@@ -1137,7 +1143,7 @@ textarea[id="message"] {
   }
   .box5 .ui button {
     margin-top: 10px;
-    margin-left: 113px;
+    margin-left: 90px;
   }
   .project-card {
     display: grid;
@@ -1438,7 +1444,7 @@ textarea[id="message"] {
       border: 0px;
       border-radius: 15px;
       background-color: aqua;
-      margin-left: 93px;
+      margin-left: 75px;
       box-shadow: 2px 0px 3px 5px aqua;
       font-size: 2.4vw;
       font-weight: bolder;
@@ -1747,7 +1753,7 @@ textarea[id="message"] {
       border: 0px;
       border-radius: 15px;
       background-color: aqua;
-      margin-left: 70px;
+      margin-left: 60px;
       box-shadow: 2px 0px 3px 5px aqua;
       font-size: 2.4vw;
       font-weight: bolder;
